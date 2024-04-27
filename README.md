@@ -27,6 +27,7 @@ EXTRAS<br />
 11.  Type `info args` to see the value of all the argument variables that were passed into the current function <br />
 12. Type `layout next` to see your source code in the terminal and press ENTER to iterate through different types of layout until you see one that you like. <br />
 (my favorite is `lay src`) <br />
+//have to check this//
 13. Type `continue i = 3` in order to iterate the loop until a cetrain variable reaches an indicated value
 
 
