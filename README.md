@@ -7,7 +7,8 @@
 - ⚡ Fun fact: i am friendly
 
 SIMPLEST INSTRUCTIONS FOR GDB (gnu debugger) IN TERMINAL:
-1. Put this flag after cc or gcc: `-g` (`cc -g main.c`) <br />
+1. Put this flag after cc or gcc: `-g` <br />
+example: `cc -g main.c` <br />
 this allows your program to have extra debugging information (`-g3` is also an option)
 2. To launch the degubber with your program, type `gdb ./program`
 3. If any warnings, just press enter until you can type in the terminal
