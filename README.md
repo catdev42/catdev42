@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @catdev42
-- 👀 I’m interested in C programming and Grphics programming!
+- 👀 I’m interested in C programming and Graphics programming!
 - 🌱 I’m currently learning C and javascript/p5.js
-- 💞️ I’m looking to collaborate on graphical proejcts, generative art
+- 💞️ I’m looking to collaborate on graphical projects, generative art
 - 📫 How to reach me myakoven@student.42berlin.de
 - 😄 Pronouns: she/her/sis
 - ⚡ Fun fact: i am friendly
