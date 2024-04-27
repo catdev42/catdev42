@@ -15,12 +15,12 @@ this allows your program to have extra debugging information (`-g3` is also an o
 4. Type this: `break main` <br />
 this puts a place to stop in the program execution, a place from which you can take single steps. <br />
 it can be shortened to "b main"
-5. Type `run`
+5. Type `run` <br />
 this launches your program
 6. Type `n` or `next` to take the next step in your program while staying inside the current function
 7. Type `s` or `step` to step into a function that your are calling on the current line
 8. Type `p` or `print` followed by variable name like `p i` or `p str[i]`.
-9. If you have program arguments, launch debugger like this: `gdb --args ./program_name arg1 arg2 arg3 ...`
+9. If you have program arguments, launch the debugger like this: `gdb --args ./program_name arg1 arg2 arg3 ...`
 
 EXTRAS<br />
 10. Type `info local` to see the current value of all local variables <br />
