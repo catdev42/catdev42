@@ -7,26 +7,32 @@
 - ⚡ Fun fact: i am friendly
 
 SIMPLEST INSTRUCTIONS FOR GDB (gnu debugger) IN TERMINAL:
-1: Put this plag after cc or gcc: `-g`
-(this allows your program to have extra debugging information)
-2: If any warnings, just press enter until you can type in the terminal
-3: Type this: `break main`
-(this puts a place to stop in the program execution, a place from which you can take single steps.
-this can be shortened to "b main")
-4: Type `run`
-(this launches your program)
-5: Type `n` or `next` to take the next step in your program while staying inside the current function
-6: Type `s` or `step` to to into a function that your are calling on the current line
-7: Type `p` or `print` followed by variable name like `p i' or `p str[i]`
+1. Put this flag after cc or gcc: `-g` (`cc -g main.c`) <br />
+this allows your program to have extra debugging information (`-g3` is also an option)
+2. To launch the degubber with your program, type `gdb ./program`
+3. If any warnings, just press enter until you can type in the terminal
+4. Type this: `break main` <br />
+this puts a place to stop in the program execution, a place from which you can take single steps. <br />
+it can be shortened to "b main"
+5. Type `run`
+this launches your program
+6. Type `n` or `next` to take the next step in your program while staying inside the current function
+7. Type `s` or `step` to step into a function that your are calling on the current line
+8. Type `p` or `print` followed by variable name like `p i` or `p str[i]`.
+9. If you have program arguments, launch debugger like this: `gdb --args ./program_name arg1 arg2 arg3 ...`
 
-/* EXTRA */
-8: Type `info local` to see the current value of all local variables
-9: Type `info args` to see the value of all the argument variables that were passed into the current function
-10: Type `layout` to see your source code in the terminal and press ENTER to iterate through different types until you see one that you like.
-(my favorite is `lay src`)
-You may have noticed tha tyou can write many sommands as just 1 letter. The debugger will let you know if it doesnt understand you.
-`q` for quit
-`run` to run again without quitting
+EXTRAS<br />
+10. Type `info local` to see the current value of all local variables <br />
+11.  Type `info args` to see the value of all the argument variables that were passed into the current function <br />
+12. Type `layout next` to see your source code in the terminal and press ENTER to iterate through different types of layout until you see one that you like. <br />
+(my favorite is `lay src`) <br />
+13. Type `continue i = 3` in order to iterate the loop until a cetrain variable reaches an indicated value
+
+
+You may have noticed that you can write many sommands as just 1 letter. 
+<br />The debugger will let you know if it doesnt understand you.
+<br />`q` for quit
+<br />`run` to run again without quitting
 
 
 <!---
