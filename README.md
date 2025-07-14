@@ -21,6 +21,7 @@ this launches your program
 7. Type `s` or `step` to step into a function that your are calling on the current line
 8. Type `p` or `print` followed by variable name like `p i` or `p str[i]`.
 9. If you have program arguments, launch the debugger like this: `gdb --args ./program_name arg1 arg2 arg3 ...`
+    Alt: just type in the arguments after the run keyword `run arg1 arg2`
 
 EXTRAS<br />
 10. Type `info local` to see the current value of all local variables <br />
