@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @catdev42
-- 👀 I’m interested in C programming and Graphics programming!
-- 🌱 I’m currently learning C and javascript/p5.js
+- 👀 I’m interested in C, C++, React, TS and Graphics programming!
+- 🌱 I’m currently learning Rust
 - 💞️ I’m looking to collaborate on graphical projects, generative art
 - 📫 How to reach me myakoven@student.42berlin.de
-- 😄 Pronouns: she/her/sis
+- 😄 Pronouns: she/her
 - ⚡ Fun fact: i am friendly
 
 SIMPLEST INSTRUCTIONS FOR GDB (gnu debugger) IN TERMINAL:
