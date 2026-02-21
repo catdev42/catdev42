@@ -4,7 +4,6 @@
 - 💞️ I’m looking to collaborate on graphical projects, generative art
 - 📫 How to reach me myakoven@student.42berlin.de
 - 😄 Pronouns: she/her
-- ⚡ Fun fact: i am friendly
 
 SIMPLEST INSTRUCTIONS FOR GDB (gnu debugger) IN TERMINAL:
 1. Put this flag after cc or gcc: `-g` <br />
